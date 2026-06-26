@@ -121,3 +121,9 @@ R = 10.0 * progress + 200.0 * success - 0.005 * speed - 0.001 * action² - 0.03 
 Графики траектории
 ---
 ![Траектория](trajectories.png)
+
+Графики траектории при запуске на реальном дроне
+---
+![Траектория реал](real_traj_RL.png)
+---
+Видео полета реального дрона лежит в файле https://github.com/AlexKRUG310/Drone-RL-Navigation/blob/main/real_rl.mp4
