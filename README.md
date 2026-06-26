@@ -118,3 +118,8 @@ R = 10.0 * progress + 200.0 * success - 0.005 * speed - 0.001 * action² - 0.03 
 Полёт в симуляции
 ---
 ![gif](sim_rl.gif)
+
+---
+Графики траектории
+---
+![Траектория](trajectories.png)
