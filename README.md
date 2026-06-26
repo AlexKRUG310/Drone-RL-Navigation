@@ -23,7 +23,7 @@ cd drone-rl-navigation
 ## Структура проекта
 
 ```
-drone-rl-navigation/
+drone-rl-navigation/src
 ├── drone_env.py              # Среда обучения на базе Gymnasium и MuJoCo
 ├── train_rl.py               # Скрипт запуска обучения PPO
 ├── fly_waypoints.py          # Полёт по заданным точкам
@@ -111,3 +111,10 @@ R = 10.0 * progress + 200.0 * success - 0.005 * speed - 0.001 * action² - 0.03 
 - Вылет за границы (|x| > 5.0 м или |y| > 5.0 м)
 
 ---
+
+## Результаты
+
+---
+Полёт в симуляции
+---
+![gif]([sim_rl.gif])
